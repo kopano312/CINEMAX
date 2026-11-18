@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #101010;
+    -fx-font-family: "Arial";
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-height: 8px;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #333333;
+    -fx-background-radius: 5;
+}
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #E50914; /* Turns red on hover */
+}
+.scroll-bar:horizontal .track {
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
